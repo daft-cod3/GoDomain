@@ -101,18 +101,12 @@ export default function ModelTownPage() {
                   "Use this page to understand board layout, lane priorities, common signs, and practical-test expectations before entering the real test environment.",
                 )}
               </p>
-              <div className="mt-6 grid gap-3 sm:grid-cols-2">
+              <div className="mt-6">
                 <Link
                   href="/modelTown/parking/flush"
-                  className="rounded-xl bg-blue-600 px-4 py-3 text-center text-sm font-semibold text-white hover:bg-blue-700"
+                  className="inline-flex rounded-xl bg-blue-600 px-5 py-3 text-center text-sm font-semibold text-white hover:bg-blue-700"
                 >
-                  {t("Practice flush parking")}
-                </Link>
-                <Link
-                  href="/modelTown/parking/angle"
-                  className="rounded-xl border border-slate-300 bg-white px-4 py-3 text-center text-sm font-semibold text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
-                >
-                  {t("Practice angle parking")}
+                  {t("Play 3D Driving Simulation")}
                 </Link>
               </div>
             </div>
