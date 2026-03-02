@@ -1,0 +1,30 @@
+export const modules = [
+  {
+    id: 1,
+    title: "Road Signs & Signals",
+    titleSw: "Alama za Barabara",
+    icon: "🛑",
+    color: "bg-brand-red",
+    progress: 80,
+    locked: false,
+  },
+  {
+    id: 2,
+    title: "Model Town Board",
+    titleSw: "Ubao wa Mji",
+    icon: "🚗",
+    color: "bg-blue-500",
+    progress: 40,
+    locked: false,
+    special: true, 
+  },
+  {
+    id: 3,
+    title: "Rules of the Road",
+    titleSw: "Sheria za Barabara",
+    icon: "📖",
+    color: "bg-brand-green",
+    progress: 10,
+    locked: false,
+  },
+];
